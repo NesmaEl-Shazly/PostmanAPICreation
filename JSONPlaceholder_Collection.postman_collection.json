@@ -1,0 +1,27 @@
+{
+	"info": {
+		"_postman_id": "d273b053-abac-4529-be4a-e0d7ab277990",
+		"name": "JSONPlaceholder_Collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "19692916"
+	},
+	"item": [
+		{
+			"name": "Get_Users_List",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{base_url}}/users",
+					"host": [
+						"{{base_url}}"
+					],
+					"path": [
+						"users"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
